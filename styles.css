@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0
+}
+
+#buttons{
+	width:100%;
+	padding:10px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:50vh;
+	gap:20px;
+	background-color:#A164DF;
+}
+
+.btn{
+	border:none;
+	padding:10px;
+	background-color:#663399;
+	color:white;
+	border-radius:5px;
+}
